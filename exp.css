@@ -31,3 +31,25 @@ body{
 .in p{
     font-size: 12px;
 }
+@media (min-width: 768px) {
+    .box {
+        width: 48%;
+        float: left;
+        margin-right: 4%;
+    }
+
+    .box:nth-child(2n) {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .box {
+        width: 32%;
+        margin-right: 2%;
+    }
+
+    .box:nth-child(3n) {
+        margin-right: 0;
+    }
+}
