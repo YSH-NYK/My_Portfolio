@@ -1,0 +1,14 @@
+.abtscreen{
+    padding: 150px;
+    text-align: center;
+    margin-left: 100px;
+    border: 2px solid;
+    color: #7a3ff2;
+}
+.in {
+    list-style: none;
+}
+.abtscreen p{
+    font-size: 20px;
+    font-family: poppins;
+}

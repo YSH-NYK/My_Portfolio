@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+.main{
+    display: flex;
+    height: 100vh;
+}
+.leftsec{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 25px;
+    flex-direction: column;
+    gap: 10px;
+    width: 13%;
+    background: linear-gradient(55deg,#2f4b98  , rgb(122, 63, 242) 50%);
+}
+.rytsec{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 35px; 
+}
+.profile {
+    border-radius: 150px;
+    margin-top: 10px ;
+    width: 70%;
+    transition: transform 0.2s;
+} 
+.profile:hover{
+    transform: scale(1.2);
+}
+.rytsec {
+    background-color: white
+}
+.list li{
+    list-style: none;
+}
+.list a{
+text-decoration: none;
+color: aliceblue;
+font-size: 40px;
+font-family: teko;
+cursor: pointer;
+transition: transform 0.2s;
+}
+
+.list li:hover{
+    transform: scale(1.1);
+}
+ul{
+    margin-left: -10%;
+    align-items: center;
+    text-align: center;
+}
+.links{
+   display: flex;
+   gap: 16px;
+   margin-left: 10px;
+   align-content: center;
+}
+.linkdin,.git,.insta,.email{
+    width: 40px;   
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.linkdin:hover,.git:hover,.insta:hover,.email:hover{
+    transform: scale(1.5);
+}
+.linkdin:active,.git:active,.insta:active,.email:active{
+    width: 40px;  
+}

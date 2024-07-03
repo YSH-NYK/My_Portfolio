@@ -1,0 +1,33 @@
+.abtscreen{
+    padding: 80px;
+    text-align: center;
+    margin-left: 400px;
+    border: 2px solid;
+    color: #7a3ff2;
+}
+.in {
+    list-style: none;
+    text-align: center;
+}
+.in ul{
+    text-align: center;
+    text-align: center;
+}
+.in li{
+    transition: transform 0.2s;
+    cursor: default;
+}
+.in li:hover{
+    transform: scale(1.2);
+}
+.abtscreen p{
+    font-size: 20px;
+    font-family: poppins;
+}
+body{
+    text-align: center;
+}
+
+.in p{
+    font-size: 12px;
+}

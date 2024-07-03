@@ -1,0 +1,15 @@
+.rytsection{
+    font-size: 17px;
+    color: black;
+    margin-left:350px;
+    margin-top: 20px
+}
+.projects li{
+    list-style: none;
+    font-family: poppins;
+}
+.projects a{
+    text-decoration: none;
+    text-align: center;
+    color: #7a3ff2;
+}
